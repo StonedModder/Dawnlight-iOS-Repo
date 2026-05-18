@@ -1,0 +1,71 @@
+{
+  "$schema": "../altstore.schema.json",
+  "name": "Dusklight iOS Repo",
+  "identifier": "com.twiltrealm.dusklight.altstore.source",
+  "sourceURL": "https://raw.githubusercontent.com/StonedModder/Dawnlight-iOS-Repo/main/dusklight/apps.json",
+  "apps": [
+    {
+      "name": "Dusklight",
+      "subtitle": "The Legend of Zelda: Twilight Princess ? native port",
+      "bundleIdentifier": "com.twiltrealm.dusklight",
+      "developerName": "TwilitRealm",
+      "version": "1.2.0",
+      "versionDate": "2026-05-18T04:03:21",
+      "versionDescription": "## Release v1.2.0\n\n**What's New:**\n\n- **Added:** Experimental D3D11 (Windows) and OpenGL ES (Android) graphics backends\n  - This allows Dusklight to run on devices that don't support Vulkan 1.1, D3D12 or Metal, but be warned that performance and accuracy may suffer! These backends are provided on a best-effort basis.\n- **Added:** Capped FPS option: set any framerate limit\n- **Added:** \"Area\" output resampling option\n  - Smoother resampler for both upscaling and downscaling from the internal resolution\n- **Added:** Many, many fixes and improvements to interpolation\n- **Added:** Better achievement logic for Skybook characters\n- **Added:** Autosave safety (no autosave after loading a state, no autosave after reset, etc.)\n- **Added:** Ctrl-R to reset now triggers on release, like the button combo\n- **Added:** Option to remove button binds with only controller (press same button again)\n- **Added:** Option to enable and disable texture replacements in-game\n- **Fixed:** Various crashes on all platforms (Goron Mines elevator & others)\n- **Fixed:** Off-center aim reticle on devices with \"safe area\" (notches, in-screen cameras, etc)\n- **Fixed:** Mipmap texture replacement regression in v1.1.1\n- **Fixed:** Softlock on title screen when resetting while saving\n- **Fixed:** Item wheel pause buffer now displays a synchronized (non-interpolated) frame\n- **Fixed:** PAL keyboard\n- **Fixed:** Shoulder buttons incorrectly setting analog values\n- **Fixed:** Ook and Zant jump locations\n- **Fixed:** \"Fast Tears of Light\" bug where tears could travel out of bounds\n- **Fixed:** macOS Game Mode on macOS <26\n- **Fixed:** Booting on macOS 14, and possibly booting on x64 \n- **Fixed:** Rollgoal completion to scale better with Bigger wallets\n- **Fixed:** Dusklight gives better info when graphics backends fail to load\n- **Fixed:** Allow transform level in Editor to go up to 15\n- **Fixed:** Copy/delete effects on save screen\n\n**Known issues:**\n- No solution has been found for the Adreno driver issues yet.\n\nThanks to all contributors:\n@JaxonWasTaken\n@SuperDude88\n@TakaRikka\n@tomlube\n@SailorSnoW\n@MelonSpeedruns\n@Irastris\n@qwertyquerty\n@PJB3005\n@matthewdavidrichardanderson\n@AceOfSpades-JFK\n@korrectional\n@Krutonium\n@Abzol\n@dooplecks\n@SrBananaMan\n@GiorgioMendieta\n@Pheenoh\n@xCyberxx\n@superyu1337\n\n**Full Changelog**: https://github.com/TwilitRealm/dusklight/compare/v1.1.1...v1.2.0",
+      "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v1.2.0/Dusklight-v1.2.0-ios-arm64.ipa",
+      "localizedDescription": "Dusklight brings The Legend of Zelda: Twilight Princess natively to iOS.\n\nBuilt on years of ZeldaRET decompilation work by the community.\n\nFeatures:\n- Native iOS/iPadOS support\n- Vulkan and Metal rendering\n- Custom controller bindings\n- First-person camera mode\n- New Game+ and achievements\n- Built-in update checker",
+      "iconURL": "https://avatars.githubusercontent.com/u/215055661?v=4",
+      "tintColor": "C4901E",
+      "size": 27031799,
+      "screenshotURLs": [],
+      "category": "games",
+      "versions": [
+        {
+          "version": "1.2.0",
+          "date": "2026-05-18T04:03:21",
+          "localizedDescription": "## Release v1.2.0\n\n**What's New:**\n\n- **Added:** Experimental D3D11 (Windows) and OpenGL ES (Android) graphics backends\n  - This allows Dusklight to run on devices that don't support Vulkan 1.1, D3D12 or Metal, but be warned that performance and accuracy may suffer! These backends are provided on a best-effort basis.\n- **Added:** Capped FPS option: set any framerate limit\n- **Added:** \"Area\" output resampling option\n  - Smoother resampler for both upscaling and downscaling from the internal resolution\n- **Added:** Many, many fixes and improvements to interpolation\n- **Added:** Better achievement logic for Skybook characters\n- **Added:** Autosave safety (no autosave after loading a state, no autosave after reset, etc.)\n- **Added:** Ctrl-R to reset now triggers on release, like the button combo\n- **Added:** Option to remove button binds with only controller (press same button again)\n- **Added:** Option to enable and disable texture replacements in-game\n- **Fixed:** Various crashes on all platforms (Goron Mines elevator & others)\n- **Fixed:** Off-center aim reticle on devices with \"safe area\" (notches, in-screen cameras, etc)\n- **Fixed:** Mipmap texture replacement regression in v1.1.1\n- **Fixed:** Softlock on title screen when resetting while saving\n- **Fixed:** Item wheel pause buffer now displays a synchronized (non-interpolated) frame\n- **Fixed:** PAL keyboard\n- **Fixed:** Shoulder buttons incorrectly setting analog values\n- **Fixed:** Ook and Zant jump locations\n- **Fixed:** \"Fast Tears of Light\" bug where tears could travel out of bounds\n- **Fixed:** macOS Game Mode on macOS <26\n- **Fixed:** Booting on macOS 14, and possibly booting on x64 \n- **Fixed:** Rollgoal completion to scale better with Bigger wallets\n- **Fixed:** Dusklight gives better info when graphics backends fail to load\n- **Fixed:** Allow transform level in Editor to go up to 15\n- **Fixed:** Copy/delete effects on save screen\n\n**Known issues:**\n- No solution has been found for the Adreno driver issues yet.\n\nThanks to all contributors:\n@JaxonWasTaken\n@SuperDude88\n@TakaRikka\n@tomlube\n@SailorSnoW\n@MelonSpeedruns\n@Irastris\n@qwertyquerty\n@PJB3005\n@matthewdavidrichardanderson\n@AceOfSpades-JFK\n@korrectional\n@Krutonium\n@Abzol\n@dooplecks\n@SrBananaMan\n@GiorgioMendieta\n@Pheenoh\n@xCyberxx\n@superyu1337\n\n**Full Changelog**: https://github.com/TwilitRealm/dusklight/compare/v1.1.1...v1.2.0",
+          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v1.2.0/Dusklight-v1.2.0-ios-arm64.ipa",
+          "size": 27031799
+        },
+        {
+          "version": "1.1.1",
+          "date": "2026-05-13T15:51:54",
+          "localizedDescription": "## Release v1.1.1\n\nThe first release as **Dusklight**!\nOur entire team has been working very hard to address issues and add new features.\n\n**What's new:**\n- **Added:** Custom action binds for Dusklight Menu, Turbo, Midna, and First Person Camera\n- **Added:** D-Pad menu navigation in-game\n- **Added:** Change Data Folder & Portable Mode (desktop only; Android coming soon)\n  - Portable Mode (Windows only): saves, texture packs and config are stored next to the .exe in `data/`\n  - Change Data Folder (Windows/Linux/macOS): saves, texture packs and config are stored in a custom location\n- **Added:** Warp menu (requires \"Enable Advanced Settings\")\n- **Added:** \"Enable Discord Rich Presence\", \"Show Input Viewer\" settings\n- **Added:** \"Fast Roll\", \"Infinite Seeds\", \"Invincible Enemies\" cheats\n- **Added:** PNG format for custom textures (**not** recommended in a pack, but useful for development)\n- **Added:** Improved Speedrun Mode\n- **Fixed:** Z improperly mapped to Menu by default (it now properly maps to RB)\n- **Fixed:** \"Pause on Focus Lost\" causing the game to freeze on startup\n- **Fixed:** Fishing log on USA version\n- **Fixed:** Linux crash in Temple of Time\n- **Fixed:** Prelaunch softlock\n- **Fixed:** Pillarbox widezoom cutscenes instead of cropping\n- **Fixed:** World map off center when switching mirror mode\n- **Fixed:** Don't autosave after loading a save state\n- **Fixed:** Bloom pulse speed\n- **Fixed:** \"Invert First Person X/Y\" now only inverts stick, not gyro\n- **Fixed:** Texture replacements with Unicode characters in the path on Windows\n- **Fixed:** LJA achievement triggering from cutscene teleport\n- **Fixed:** Fast Iron Boots rolling underwater\n- **Fixed:** Many different crashes\n\n**Known issues:**\n- Adreno graphical issues. Lots of effort has been spent trying to work around driver bugs to no avail.\n- You should **manually unbind digital trigger buttons** (by pressing Escape) in Controller Configuration to avoid conflicts\n\nThanks to all contributors:\n@Pheenoh\n@Krutonium\n@SuperDude88\n@Irastris\n@encounter\n@dooplecks\n@flash-computer\n@itssecretnate\n@BoLThompson\n@RibShark\n@joeycato\n@qwertyquerty\n@tomlube\n@Sulfrix\n@PJB3005\n@MelonSpeedruns\n@gymnast86\n@SailorSnoW\n\n**Full Changelog**: https://github.com/TwilitRealm/dusklight/compare/v1.0.1...v1.1.1",
+          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v1.1.1/Dusklight-v1.1.1-ios-arm64.ipa",
+          "size": 27016607
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-05-11T02:06:08",
+          "localizedDescription": "## Release v1.0.1\n\nWe are genuinely moved and appreciative of the reception that Dusk has recieved in the last 24 hours.\nThe stories of people reliving their childhood, honoring their late friends, and enjoying the project are deeply moving for the team to read.\nThe YouTube trailer getting 220k views in 24 hours and media coverage from large and small creators brings us joy and validates the immense effort poured into the project.\nThis release brings many fixes for common issues that people have hit with the initial release. Cheers all!\n\n**What's new:**\n- **Added:** Dusk data can now be accessed from the Files app on Android and iOS\n  - Android:  If you have trouble finding Dusk in your files app, try this [Files](<https://play.google.com/store/apps/details?id=com.marc.files>) app. Open the left nav and scroll to the bottom.\n- **Added:** \"Open Data Folder\" in Settings -> Interface\n- **Added:** Crash reporting (opt-in)\n- **Added:** Enable Game Mode on iOS\n- **Added:** Option to invert axes while aiming\n- **Added:** Actor spawning debug tool\n- **Added:** Easier first person with freecam\n- **Added:** Improved \"no graphics backend\" message\n- **Added:** Symlink support in `texture_replacements`\n- **Fixed:** Worked around an Adreno GPU driver bug with alpha discard (Ilia hair, foliage, etc. on Android)\n- **Fixed:** Android not copying initial pipeline cache\n  - Delete `pipeline_cache.db` from data to get the full cache; eliminates pop-in issues\n- **Fixed:** Recording Mode disabling music until quit\n- **Fixed:** Keyboard binds not working\n- **Fixed:** Unicode characters in filepaths\n- **Fixed:** Freezing when minimizing the window\n- **Fixed:** Default controller mappings (Z/Back button binding, etc.)\n- **Fixed:** Gyro aiming and inverting view axes\n- **Fixed:** macOS 14 support (untested)\n- **Fixed:** Crashes when moving between monitors with different scaling\n- **Fixed:** Gyro sensitivity axis names were swapped\n\nThanks for the contributions from @Krutonium, @Project516, @Markos-Th09, and @juliosanz.\n\n**Full Changelog**: https://github.com/TwilitRealm/dusk/compare/v1.0.0...v1.0.1",
+          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v1.0.1/Dusk-v1.0.1-ios-arm64.ipa",
+          "size": 26669329
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-05-09T21:59:01",
+          "localizedDescription": "## Dusk is available now\n\nWe're so excited to share this with the world. First, this wouldn't have been possible without so many people in the\nZeldaRET community, GameCube / Wii decompilation community and beyond coming together to dedicate their talent to this.\nHuge thanks to all of them!\n\nWhen we started the Twilight Princess decompilation project in August 2020, it was hard to imagine it would ever be\nfinished, much less to see it used for a project like this. Years and years of effort have been poured into the\ndecompilation by contributors all over the world, resulting in the **largest** decompilation project ever completed.\n\nStarting in late February, we embarked on the journey to bring the finished decompilation project to more platforms.\nAlong the way, we've worked with so many talented people and developed something that we're really proud of.\n\nDusk is a labor of love by people who love Twilight Princess and reverse engineering. Happy (early) 20th birthday to\nTwilight Princess! Please enjoy Dusk, and look forward to future updates.",
+          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v1.0.0/Dusk-v1.0.0-ios-arm64.ipa",
+          "size": 26678188
+        },
+        {
+          "version": "1.0.0-rc.1",
+          "date": "2026-05-09T03:05:54",
+          "localizedDescription": "**What's new:**\n- **Added:** New achievements\n- **Added:** Update checker (won't work until we're public)\n- **Added:** Mouse input for \"gyro source\", a.k.a. mouse aiming\n- **Added:** Interpolate fades & camera bars\n- **Added:** Interpolate B&C chain links\n- **Added:** Update checks & disc info to mobile prelaunch menu\n- **Added:** \"Background Input\" and \"Pause on Focus Lost\" interface settings\n- **Added:** \"Notifications\" interface setting for achievements & controller connections\n- **Fixed:** Many mobile issues\n- **Fixed:** Disable autosave in speedrun mode\n- **Fixed:** Linux AppImage icons\n- **Fixed:** Limit Super Clawshot to 600 chain links\n- **Fixed:** Letter menu page numbers\n- **Removed:** Ctrl-R to reset\n\n**Full Changelog**: https://github.com/TwilitRealm/dusk/compare/v0.6.3...v1.0.0-rc.1",
+          "downloadURL": "https://github.com/TwilitRealm/dusklight/releases/download/v1.0.0-rc.1/Dusk-v1.0.0-rc.1-ios-arm64.ipa",
+          "size": 26674594
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Dusklight Source Active",
+      "identifier": "dusklight-twiltrealm-source-active",
+      "caption": "Install Dusklight - the original Twilight Princess native port by TwilitRealm.",
+      "tintColor": "C4901E",
+      "date": "2026-05-18",
+      "notify": true
+    }
+  ]
+}
